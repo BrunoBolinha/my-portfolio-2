@@ -1,0 +1,19 @@
+from pathlib import Path
+
+ROOT_FOLDER = Path(__file__).parent
+FILES_FOLDER = ROOT_FOLDER / 'files'
+WINDOW_ICON_PATH = FILES_FOLDER / 'calculadora.png'
+
+# Colors
+
+PRIMARY_COLOR = '#1e81b0'
+DARKER_PRIMARY_COLOR = '#16658a'
+DARKEST_PRIMARY_COLOR = '#115270'
+
+# Sizzing
+
+PLACE_FONT_SIZE = 20
+BUTTON_FONT_SIZE = 14
+INFO_FONT_SIZE = 14
+TEXT_MARGIN = 5
+MINIMUM_WIDTH = 200
